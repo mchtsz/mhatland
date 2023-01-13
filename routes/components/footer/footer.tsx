@@ -6,4 +6,4 @@ export default function module() {
         <p>&copy;2023 Marthin Hatland</p>
     </div>
 </footer>
-}
+} 

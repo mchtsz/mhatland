@@ -1,11 +1,13 @@
 .footer {
-    display: flex;
-    width: 20vw;
     position: absolute;
+    display: flex;
+    width: 100%;
+    text-align: center;
     align-items: center;
+    justify-content: center;
     color: white;
-    top: 90%;
-    left: 45%;
+    bottom: 0;
     font-size: 20px;
     font-weight: 400;
+    flex: 1;
 }
