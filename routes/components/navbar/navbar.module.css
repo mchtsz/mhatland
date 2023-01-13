@@ -1,3 +1,21 @@
+.nav_style {
+    display: flex;
+    position: relative;
+    align-items: center;
+    float: right;
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.nav_style:hover {
+    color: #8aa1b1;
+    cursor: pointer;
+}
+
 .overlay {
     height: 0%;
     width: 100%;

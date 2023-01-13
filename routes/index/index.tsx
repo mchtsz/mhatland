@@ -1,6 +1,8 @@
-import "./style.css";
+import "./global.css";
 
 import Navbar from "../components/navbar/navbar";
+
+import Footer from "../components/footer/footer";
 
 export default () => {
     return <html lang="en">
@@ -21,23 +23,13 @@ export default () => {
 
             <main>
                 <section>
-                    <div class="section" id="section">
-                        
-                    </div>
                 </section>
 
                 <article>
-                    <div class="article" id="article">
-                        
-                    </div>
                 </article>
             </main>
 
-            <footer>
-                <div class="footer" id="footer">
-                    <p>&copy;2023 Marthin Hatland</p>
-                </div>
-            </footer>
+            <Footer></Footer>
         </div>
     </body>
     

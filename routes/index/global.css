@@ -23,16 +23,3 @@ body {
     color: #8aa1b1;
     cursor: pointer;
 }
-
-.footer {
-    display: flex;
-    width: 20vw;
-    position: absolute;
-    align-items: center;
-    color: white;
-    top: 90%;
-    left: 40%;
-    font-size: 20px;
-    font-weight: 400;
-
-}

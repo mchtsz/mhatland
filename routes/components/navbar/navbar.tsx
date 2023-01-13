@@ -21,8 +21,8 @@ export default function Navbar() {
                 <a href="#">Kontakt</a>
             </div>
         </div>
-        <div class={[style.meny, style.nav]}>
-            <span onclick={openNav}>Meny</span>
+        <div class={[style.meny, style.nav, style.nav_style]}>
+            <span onclick={openNav} >Meny</span>
         </div>
     </nav>
 }
