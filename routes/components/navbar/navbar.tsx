@@ -3,13 +3,13 @@ import style from "./navbar.module.css"
 
 const openNav = () => {
     document.getElementById("myNav").style.height = "100%";
+    document.getElementById("menuBtn").style.visibility = "hidden";
 }
 
 const closeNav = () => {
     document.getElementById("myNav").style.height = "0%";
+    document.getElementById("menuBtn").style.visibility = "visible";
 }
-
-useClient({openNav, closeNav})
 
 export default function Navbar() {
     return <nav>
@@ -22,7 +22,7 @@ export default function Navbar() {
             </div>
         </div>
         <div class={[style.meny, style.nav, style.nav_style]}>
-            <span onclick={openNav} >Meny</span>
+            <span onclick={openNav} id="menuBtn">Meny</span>
         </div>
     </nav>
 }
