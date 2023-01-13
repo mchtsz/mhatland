@@ -8,6 +8,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@klevn/jxc": "^31.0.8"
+    "@klevn/jxc": "^31.7.9"
   }
 }
