@@ -1,25 +1,7 @@
 body {
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    background-image: linear-gradient(to bottom, #28536b, #42667c, #5a798d, #728d9f, #8aa1b1);
-    font-family: 'Manrope', sans-serif;
-}
-
-.nav-style {
-    display: flex;
-    position: relative;
-    align-items: center;
-    float: right;
-    color: white;
-    font-weight: 400;
-    font-size: 22px;
-    margin-right: 2rem;
-    margin-top: 1rem;
-    text-decoration: none;
-}
-
-.nav-style:hover {
-    color: #8aa1b1;
-    cursor: pointer;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #212227;
+  font-family: "Manrope", sans-serif;
 }
