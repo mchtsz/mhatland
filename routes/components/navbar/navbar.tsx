@@ -22,6 +22,11 @@ export default function Navbar() {
             </div>
         </div>
 
+
+        <div class={[style.logo]}>
+            <a href="./index.html"><img src="./mhatland.svg" /></a>
+        </div>
+
         <div class={[style.container1, style.meny, style.nav, style.nav_style]} onclick={openNav} id="menuBtn">
             <div class={[style.bar1]}></div>
             <div class={[style.bar2]}></div>

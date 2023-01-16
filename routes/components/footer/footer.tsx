@@ -4,7 +4,7 @@ export default function module() {
   return (
     <footer>
       <div class={style.footer}>
-        <p>&copy;2023 Marthin Hatland</p>
+        <p>{"&copy;" + new Date().getFullYear() + " Marthin Hatland"}</p>
       </div>
     </footer>
   );
