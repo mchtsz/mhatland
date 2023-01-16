@@ -1,4 +1,3 @@
-import { useClient } from "@klevn/jxc";
 import style from "./navbar.module.css"
 
 const openNav = () => {
@@ -11,10 +10,20 @@ const closeNav = () => {
     document.getElementById("menuBtn").style.visibility = "visible";
 }
 
+const openNavAndToggle = () => {
+    document.getElementById("menuBtn").classList.toggle(style.active)
+    openNav()
+}
+
+const closeNavAndToggle = () => {
+    document.getElementById("menuBtn").classList.toggle(style.active)
+    closeNav()
+}
+
 export default function Navbar() {
-    return <nav>
+    return <nav use={{openNav, closeNav, style}}>
         <div id="myNav" class={style.overlay}>
-            <a href="javascript:void(0)" class={style.closebtn} onclick={closeNav}>&times;</a>
+            <a href="javascript:void(0)" class={style.closebtn} onclick={closeNavAndToggle}>&times;</a>
             <div class={style.overlay_content}>
                 <a href="#">Arbeid</a>
                 <a href="#">Om meg</a>
@@ -32,7 +41,7 @@ export default function Navbar() {
         </div>
         
 
-        <div class={[style.container1, style.meny, style.nav, style.nav_style]} onclick={openNav} id="menuBtn">
+        <div class={[style.container1, style.meny, style.nav, style.nav_style]} onclick={openNavAndToggle} id="menuBtn">
             <div class={[style.bar1]}></div>
             <div class={[style.bar2]}></div>
             <div class={[style.bar3]}></div>

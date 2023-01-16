@@ -2,10 +2,7 @@
   display: flex;
   position: relative;
   align-items: center;
-  float: right;
   color: white;
-  font-weight: 400;
-  font-size: 22px;
   margin-right: 50px;
   text-decoration: none;
 }
@@ -76,17 +73,16 @@ nav {
   margin: 6px 0;
   transition: 0.4s;
 }
-/* sad 
-.change .bar1 {
+
+.active .bar1 {
   transform: translate(0, 11px) rotate(-45deg);
 }
 
-.change .bar2 {opacity: 0;}
+.active .bar2 {opacity: 0;}
 
-.change .bar3 {
+.active .bar3 {
   transform: translate(0, -11px) rotate(45deg);
 }
-*/
 
 .overlay {
   height: 0%;
