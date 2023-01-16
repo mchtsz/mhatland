@@ -24,8 +24,26 @@
 }
 
 .logo img {
-  width: 40px;
-  height: 40px;
+  height: 30px;
+  width: 100%;
+}
+
+.favicon img {
+  height: 30px;
+  width: 100%;
+}
+
+.favicon a {
+  height: 100%;
+  cursor: pointer;
+}
+
+.favicon {
+  display: flex;
+  position: relative;
+  align-items: center;
+  float: left;
+  margin-left: 50px;
 }
 
 nav {
@@ -35,6 +53,7 @@ nav {
   height: 100px;
   width: 100%;
   position: fixed;
+  gap: 2rem;
   justify-content: space-between;
   align-items: center;
   top: 0;
@@ -123,4 +142,23 @@ nav {
     top: 15px;
     right: 35px;
   }
+}
+
+
+@media screen and (max-width: 2000px) {
+  .favicon {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .logo {
+    display: none;
+  }
+
+  .favicon {
+    display: flex;
+  }
+
 }

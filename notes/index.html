@@ -9,9 +9,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <link rel="icon" href="/favicon.ico" type="image/x-icon"></link>
-        <title>Nettside</title>
+        <link rel="icon" href="./mhatland.svg">
+        <title>Marthin - Hjem</title>
 
         <script>
             function openNav() {
@@ -28,24 +27,24 @@
     <body>
         <div class="all">
             <nav>
-                <!-- The overlay -->
                 <div id="myNav" class="overlay">
-
-                    <!-- Button to close the overlay navigation -->
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-                    <!-- Overlay content -->
-                    <div class="overlay-content">
-                    <a href="#">Arbeid</a>
-                    <a href="#">Om meg</a>
-                    <a href="#">Kontakt</a>
+                    <a href="javascript:void(0)" class="closebtn" onclick={closeNav}>&times;</a>
+                    <div class="content">
+                        <a href="#">Arbeid</a>
+                        <a href="#">Om meg</a>
+                        <a href="#">Kontakt</a>
                     </div>
-                
                 </div>
-                
-                <!-- Use any element to open/show the overlay navigation menu -->
-                <div class="meny nav-style" id="meny">
-                    <span onclick="openNav()">Meny</span>
+        
+        
+                <div class="logo">
+                    <a href="./index.html"><img src="/notes/wow/logo.svg" /></a>
+                </div>
+        
+                <div class="container1 meny nav nav_style" id="menuBtn">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
                 </div>
             </nav>
 
@@ -64,10 +63,10 @@
             </main>
 
             <footer>
-                <div class="footer" id="footer">
-                    <p>&copy;2023 Marthin Hatland</p>
+                <div class="footer">
+                  <p>&copy;2023 Marthin Hatland</p>
                 </div>
-            </footer>
+              </footer>
         </div>
     </body>
     

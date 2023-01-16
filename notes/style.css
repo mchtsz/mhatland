@@ -2,37 +2,21 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to bottom, #28536b, #42667c, #5a798d, #728d9f, #8aa1b1);
-    font-family: 'Manrope', sans-serif;
-}
+    background-color: #212227;
+    font-family: "Manrope", sans-serif;
+  }
 
-.nav-style {
-    display: flex;
-    position: relative;
-    align-items: center;
-    float: right;
-    color: white;
-    font-weight: 400;
-    font-size: 22px;
-    margin-right: 3rem;
-    margin-top: 2rem;
-    text-decoration: none;
-}
-
-.nav-style:hover {
-    color: #8aa1b1;
-    cursor: pointer;
-}
-
-.footer {
-    display: flex;
-    width: 20vw;
+  .footer {
     position: absolute;
+    display: flex;
+    width: 100%;
+    text-align: center;
     align-items: center;
+    justify-content: center;
     color: white;
-    top: 90%;
-    left: 40%;
+    bottom: 0;
     font-size: 20px;
     font-weight: 400;
-
-}
+    flex: 1;
+  }
+  

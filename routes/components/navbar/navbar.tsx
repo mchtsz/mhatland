@@ -24,8 +24,13 @@ export default function Navbar() {
 
 
         <div class={[style.logo]}>
-            <a href="./index.html"><img src="./mhatland.svg" /></a>
+            <a href="./index.html"><img src="/components/navbar/logo.svg" /></a>
         </div>
+
+        <div class={[style.favicon]}>
+            <a href="./index.html"><img src="/components/navbar/favicon.svg" /></a>
+        </div>
+        
 
         <div class={[style.container1, style.meny, style.nav, style.nav_style]} onclick={openNav} id="menuBtn">
             <div class={[style.bar1]}></div>
