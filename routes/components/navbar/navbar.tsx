@@ -33,15 +33,16 @@ export default function Navbar() {
 
 
         <div class={[style.logo]}>
-            <a href="./index.html"><img src="/components/navbar/logo.svg" /></a>
+            <a href="/"><img src="/components/navbar/logo.svg" /></a>
         </div>
 
         <div class={[style.favicon]}>
-            <a href="./index.html"><img src="/components/navbar/favicon.svg" /></a>
+            <a href="/"><img src="/components/navbar/favicon.svg" /></a>
         </div>
         
 
-        <div class={[style.container1, style.meny, style.nav, style.nav_style]} onclick={openNavAndToggle} id="menuBtn">
+        <div class={[style.container1, style.meny, style.nav, style.nav_style]} 
+        onclick={openNavAndToggle} id="menuBtn">
             <div class={[style.bar1]}></div>
             <div class={[style.bar2]}></div>
             <div class={[style.bar3]}></div>

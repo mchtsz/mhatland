@@ -9,6 +9,7 @@
 
 .logo {
   display: flex;
+  user-select: none;
   position: relative;
   align-items: center;
   float: left;
@@ -25,6 +26,15 @@
   width: 100%;
 }
 
+.favicon {
+  display: flex;
+  user-select: none;
+  position: relative;
+  align-items: center;
+  float: left;
+  margin-left: 50px;
+}
+
 .favicon img {
   height: 30px;
   width: 100%;
@@ -33,14 +43,6 @@
 .favicon a {
   height: 100%;
   cursor: pointer;
-}
-
-.favicon {
-  display: flex;
-  position: relative;
-  align-items: center;
-  float: left;
-  margin-left: 50px;
 }
 
 nav {
