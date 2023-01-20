@@ -25,7 +25,7 @@ export default function Navbar() {
         <div id="myNav" class={style.overlay}>
             <a href="javascript:void(0)" class={style.closebtn} onclick={closeNavAndToggle}>&times;</a>
             <div class={style.overlay_content}>
-                <a href="#">Arbeid</a>
+                <a href="/arbeid">Arbeid</a>
                 <a href="#">Om meg</a>
                 <a href="#">Kontakt</a>
             </div>
@@ -33,11 +33,11 @@ export default function Navbar() {
 
 
         <div class={[style.logo]}>
-            <a href="/"><img src="/components/navbar/logo.svg" /></a>
+            <a href="/home"><img src="/components/navbar/logo.svg" /></a>
         </div>
 
         <div class={[style.favicon]}>
-            <a href="/"><img src="/components/navbar/favicon.svg" /></a>
+            <a href="/home"><img src="/components/navbar/favicon.svg" /></a>
         </div>
         
 

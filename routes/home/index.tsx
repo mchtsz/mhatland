@@ -17,7 +17,7 @@ export default () => {
           href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
           rel="stylesheet"
         />
-        <link rel="icon" href="./favicon.svg"/>
+        <link rel="icon" href="/assets/favicon.svg"/>
 
         <title>Marthin - Hjem</title>
       </head>
@@ -31,7 +31,9 @@ export default () => {
               
             </section>
 
-            <article></article>
+            <article>
+
+            </article>
           </main>
 
           <Footer></Footer>
