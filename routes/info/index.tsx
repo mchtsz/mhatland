@@ -26,21 +26,26 @@ export default () => {
 
       <body>
         <div class="all">
+
           <Navbar></Navbar>
 
           <main>
-            <section>
-              
-            </section>
-
+            
             <article>
 
-            </article>
-          </main>
+              <section>
+              
+              </section>
 
+            </article>
+
+          </main>
+          
           <Footer></Footer>
+
         </div>
       </body>
+      
     </html>
   );
 };
