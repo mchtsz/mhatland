@@ -36,8 +36,8 @@
 }
 
 .favicon img {
+  display: block;
   height: 30px;
-  width: 100%;
 }
 
 .favicon a {
