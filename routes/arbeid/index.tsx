@@ -1,4 +1,4 @@
-import "../home/global.css";
+import "../index/global.css";
 
 import "./arbeid.module.css";
 

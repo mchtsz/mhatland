@@ -1,4 +1,4 @@
-import "../home/global.css";
+import "../index/global.css";
 
 import "./info.module.css";
 
@@ -45,7 +45,7 @@ export default () => {
 
         </div>
       </body>
-      
+
     </html>
   );
 };
