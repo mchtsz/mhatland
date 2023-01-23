@@ -25,9 +25,9 @@ export default function Navbar() {
         <div id="myNav" class={style.overlay}>
             <a href="javascript:void(0)" class={style.closebtn} onclick={closeNavAndToggle}>&times;</a>
             <div class={style.overlay_content}>
+                <a href="/home"><b>Tilbake</b></a>
                 <a href="/arbeid">Arbeid</a>
-                <a href="#">Om meg</a>
-                <a href="#">Kontakt</a>
+                <a href="/info">Info</a>
             </div>
         </div>
 

@@ -1,6 +1,6 @@
 import "../home/global.css";
 
-import "./arbeid.module.css";
+import "./info.module.css";
 
 import Navbar from "../components/navbar/navbar";
 
