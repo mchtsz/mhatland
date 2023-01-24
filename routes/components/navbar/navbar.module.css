@@ -45,6 +45,10 @@
   cursor: pointer;
 }
 
+.favicon {
+  display: none;
+}
+
 nav {
   display: flex;
   background-color: #2f3137;
@@ -140,14 +144,6 @@ nav {
     top: 15px;
     right: 35px;
   }
-}
-
-
-@media screen and (max-width: 2000px) {
-  .favicon {
-    display: none;
-  }
-
 }
 
 @media screen and (max-width: 400px) {

@@ -25,25 +25,21 @@ export default () => {
       </head>
 
       <body>
-        <div class="all">
+        <Navbar></Navbar>
 
-          <Navbar></Navbar>
-
-          <main>
-            
-            <article>
-
-              <section>
-              
-              </section>
-
-            </article>
-
-          </main>
+        <main>
           
-          <Footer></Footer>
+          <article>
 
-        </div>
+            <section>
+            
+            </section>
+
+          </article>
+
+        </main>
+        
+        <Footer></Footer>
       </body>
     </html>
   );
