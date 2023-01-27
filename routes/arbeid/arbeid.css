@@ -1,0 +1,19 @@
+.skole {
+    background-color: #212227;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.skole a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.skole:hover {
+    color:  #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}

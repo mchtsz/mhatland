@@ -28,9 +28,9 @@ export default () => {
         <main>
           <article>
             <section>
-            
+              <h1>Marthin</h1>
+              <h2>Webutvikler</h2>
             </section>
-
           </article>
         </main>
         

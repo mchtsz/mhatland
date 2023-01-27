@@ -1,6 +1,6 @@
 import "../index/global.css";
 
-import "./arbeid.module.css";
+import "./arbeid.css";
 
 import Navbar from "../components/navbar/navbar";
 
@@ -28,15 +28,11 @@ export default () => {
         <Navbar></Navbar>
 
         <main>
-          
-          <article>
-
-            <section>
-            
-            </section>
-
-          </article>
-
+          <section>
+            <div class="skole">
+              <a href="https://skole.mhatland.com" target="blank">Skole side</a>
+            </div>
+          </section>
         </main>
         
         <Footer></Footer>

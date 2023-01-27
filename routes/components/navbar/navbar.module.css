@@ -1,6 +1,5 @@
 .nav_style {
   display: flex;
-  position: relative;
   align-items: center;
   color: white;
   margin-right: 50px;
@@ -10,7 +9,6 @@
 .logo {
   display: flex;
   user-select: none;
-  position: relative;
   align-items: center;
   float: left;
   margin-left: 50px;
@@ -29,7 +27,6 @@
 .favicon {
   display: flex;
   user-select: none;
-  position: relative;
   align-items: center;
   float: left;
   margin-left: 50px;
@@ -55,7 +52,6 @@ nav {
   box-shadow: #28536b 0 0 1rem;
   height: 100px;
   width: 100%;
-  position: fixed;
   gap: 2rem;
   justify-content: space-between;
   align-items: center;
