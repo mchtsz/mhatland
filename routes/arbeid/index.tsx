@@ -1,10 +1,10 @@
 import "../index/global.css";
 
-import "./arbeid.css";
+import "./Arbeid.css";
 
-import Navbar from "../components/navbar/navbar";
+import Navbar from "../components/navbar/navbar.js";
 
-import Footer from "../components/footer/footer";
+import Footer from "../components/footer/footer.js";
 
 export default () => {
   return (
@@ -18,7 +18,7 @@ export default () => {
         <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet"/>
         <link rel="icon" href="/assets/favicon.svg"/>
 
-        <title>Marthin - Hjem</title>
+        <title>arbeid</title>
       </head>
 
       <body>

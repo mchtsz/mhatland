@@ -2,9 +2,9 @@ import "../index/global.css";
 
 import "./info.module.css";
 
-import Navbar from "../components/navbar/navbar";
+import Navbar from "../components/navbar/navbar.js";
 
-import Footer from "../components/footer/footer";
+import Footer from "../components/footer/footer.js";
 
 export default () => {
   return (
@@ -21,7 +21,7 @@ export default () => {
         />
         <link rel="icon" href="/assets/favicon.svg"/>
 
-        <title>Marthin - Hjem</title>
+        <title>informasjon</title>
       </head>
 
       <body>
