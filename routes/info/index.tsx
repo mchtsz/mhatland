@@ -17,10 +17,6 @@ export default () => {
           name="description"
           content="My name is Marthin Hatland, I'm a frotend developer."
         />
-        <meta
-          name="keywords"
-          content="Marthin Hatland, Hatland, info, frontend"
-        />
         <meta name="author" content="Marthin Hatland" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
