@@ -24,7 +24,7 @@ export default () => {
         />
         <link rel="icon" href="/assets/favicon.svg" />
 
-        <title>arbeid</title>
+        <title>Work - Projects</title>
       </head>
 
       <body>

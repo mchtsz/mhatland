@@ -30,7 +30,7 @@ export default () => {
         />
         <link rel="icon" href="/assets/favicon.svg" />
 
-        <title>Information - about me</title>
+        <title>Information - About me</title>
       </head>
 
       <body>

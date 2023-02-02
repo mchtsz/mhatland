@@ -23,7 +23,7 @@ export default () => {
         />
         <link rel="icon" href="/assets/favicon.svg" />
 
-        <title>Marthin Hatland - portfolio </title>
+        <title>Marthin Hatland - Portfolio </title>
       </head>
 
       <body>
