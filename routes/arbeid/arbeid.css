@@ -1,39 +1,43 @@
 .skole {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: auto;
-    width: 50%;
-    height: 5rem;
-    padding: 10px;
-    border-radius: 1rem;
-    background-color: #2f3137;
-    pointer-events: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  height: 5rem;
+  padding: 10px;
+  border-radius: 1rem;
+  background-color: #2f3137;
+  pointer-events: visible;
 }
 
 .skole p {
-    display: inline-block;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .skole:hover {
-    color:  #fff;
-    text-decoration: underline;
-    cursor: pointer;
+  color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+section {
+    width: 100%;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 main a {
-    pointer-events: none;
+  pointer-events: none;
 }
 
 section a {
-    pointer-events: none;
+  pointer-events: none;
 }

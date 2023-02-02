@@ -1,4 +1,5 @@
 import "./global.css";
+import Style from "./home.module.css";
 
 import Navbar from "../components/navbar/navbar.js";
 
@@ -17,7 +18,7 @@ export default () => {
           href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
           rel="stylesheet"
         />
-        <link rel="icon" href="/assets/favicon.svg"/>
+        <link rel="icon" href="/assets/favicon.svg" />
 
         <title>Home</title>
       </head>
@@ -26,11 +27,20 @@ export default () => {
         <Navbar></Navbar>
 
         <main>
-          <article>
-            <section></section>
+          <article class={[Style.index_article]}>
+              <section class={[Style.index_section]}>
+                <div class={[Style.me_container]}>
+                  <h1>Marthin Hatland</h1>
+                  <h4>Web Developer</h4>
+                </div>
+              </section>
+
+              <section class={[Style.index_section]}>
+                <img src="/assets/swebsite.svg" />
+              </section>
           </article>
         </main>
-        
+
         <Footer></Footer>
       </body>
     </html>

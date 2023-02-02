@@ -23,18 +23,16 @@ html {
 main {
   display: flex;
   margin: 2rem;
-  height: 100%;
-  background-color: #212227;
-  color: whitesmoke;
-  font-family: "Manrope", sans-serif;
-  overflow: scroll;
-  overflow-x: hidden;
+  height: 100vh;
   user-select: none;
 }
 
 section {
   display: flex;
-  height: 100%;
-  width: 100%;
   flex-direction: column;
+}
+
+article {
+  display: flex;
+  flex: 1;
 }

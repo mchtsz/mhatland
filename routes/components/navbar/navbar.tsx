@@ -1,51 +1,66 @@
-import style from "./navbar.module.css"
+import style from "./navbar.module.css";
 
 const openNav = () => {
-    document.getElementById("myNav").style.height = "100%";
-    document.getElementById("menuBtn").style.visibility = "hidden";
-}
+  document.getElementById("myNav").style.height = "100%";
+  document.getElementById("menuBtn").style.visibility = "hidden";
+};
 
 const closeNav = () => {
-    document.getElementById("myNav").style.height = "0%";
-    document.getElementById("menuBtn").style.visibility = "visible";
-}
+  document.getElementById("myNav").style.height = "0%";
+  document.getElementById("menuBtn").style.visibility = "visible";
+};
 
 const openNavAndToggle = () => {
-    document.getElementById("menuBtn").classList.toggle(style.active)
-    openNav()
-}
+  document.getElementById("menuBtn").classList.toggle(style.active);
+  openNav();
+};
 
 const closeNavAndToggle = () => {
-    document.getElementById("menuBtn").classList.toggle(style.active)
-    closeNav()
-}
+  document.getElementById("menuBtn").classList.toggle(style.active);
+  closeNav();
+};
 
 export default function Navbar() {
-    return <nav use={{openNav, closeNav, style}}>
-        <div id="myNav" class={style.overlay}>
-            <a href="javascript:void(0)" class={style.closebtn} onclick={closeNavAndToggle}>&times;</a>
-            <div class={style.overlay_content}>
-                <a href="/"><b>Tilbake</b></a>
-                <a href="/arbeid">Arbeid</a>
-                <a href="/info">Info</a>
-            </div>
+  return (
+    <nav use={{ openNav, closeNav, style }}>
+      <div id="myNav" class={style.overlay}>
+        <a
+          href="javascript:void(0)"
+          class={style.closebtn}
+          onclick={closeNavAndToggle}
+        >
+          &times;
+        </a>
+        <div class={style.overlay_content}>
+          <a href="/">
+            <b>Tilbake</b>
+          </a>
+          <a href="/arbeid">Arbeid</a>
+          <a href="/info">Info</a>
         </div>
+      </div>
 
+      <div class={[style.logo]}>
+        <a href="/">
+          <img src="/components/navbar/logo.svg" />
+        </a>
+      </div>
 
-        <div class={[style.logo]}>
-            <a href="/"><img src="/components/navbar/logo.svg" /></a>
-        </div>
+      <div class={[style.favicon]}>
+        <a href="/">
+          <img src="/components/navbar/favicon.svg" />
+        </a>
+      </div>
 
-        <div class={[style.favicon]}>
-            <a href="/"><img src="/components/navbar/favicon.svg" /></a>
-        </div>
-        
-
-        <div class={[style.container1, style.meny, style.nav, style.nav_style]} 
-        onclick={openNavAndToggle} id="menuBtn">
-            <div class={[style.bar1]}></div>
-            <div class={[style.bar2]}></div>
-            <div class={[style.bar3]}></div>
-        </div>
+      <div
+        class={[style.container1, style.meny, style.nav, style.nav_style]}
+        onclick={openNavAndToggle}
+        id="menuBtn"
+      >
+        <div class={[style.bar1]}></div>
+        <div class={[style.bar2]}></div>
+        <div class={[style.bar3]}></div>
+      </div>
     </nav>
+  );
 }

@@ -1,6 +1,6 @@
 import "../index/global.css";
 
-import "./Arbeid.css";
+import "./arbeid.css";
 
 import Navbar from "../components/navbar/navbar.js";
 
@@ -15,8 +15,11 @@ export default () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet"/>
-        <link rel="icon" href="/assets/favicon.svg"/>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="icon" href="/assets/favicon.svg" />
 
         <title>arbeid</title>
       </head>
@@ -33,7 +36,7 @@ export default () => {
             </a>
           </section>
         </main>
-        
+
         <Footer></Footer>
       </body>
     </html>
