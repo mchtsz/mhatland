@@ -30,13 +30,15 @@ export default () => {
         />
         <link rel="icon" href="/assets/favicon.svg" />
 
-        <title>Information - About me</title>
+        <title>Information - about me</title>
       </head>
 
       <body>
         <Navbar></Navbar>
 
-        <main></main>
+        <main>
+          <section></section>
+        </main>
 
         <Footer></Footer>
       </body>
