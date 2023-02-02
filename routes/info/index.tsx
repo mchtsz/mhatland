@@ -18,6 +18,7 @@ export default () => {
           content="My name is Marthin Hatland, I'm a frotend developer."
         />
         <meta name="author" content="Marthin Hatland" />
+        <meta name="robots" content="index"/>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
