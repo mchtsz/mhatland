@@ -35,11 +35,14 @@ export default () => {
               <div class={[Style.me_container]}>
                 <h1>Marthin Hatland</h1>
                 <h4>Web Developer</h4>
+                <q>The future is now.</q>
               </div>
             </section>
 
-            <section class={[Style.index_section]}>
-              <img src="/assets/swebsite.svg" />
+            <section class={[Style.flex]}>
+              <div class={[Style.svg_section]}>
+                <img src="/assets/swebsite.svg"/>
+              </div>
             </section>
           </article>
         </main>

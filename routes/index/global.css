@@ -23,16 +23,10 @@ html {
 main {
   display: flex;
   margin: 2rem;
-  height: 100vh;
   user-select: none;
 }
 
 section {
   display: flex;
   flex-direction: column;
-}
-
-article {
-  display: flex;
-  flex: 1;
 }

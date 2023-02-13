@@ -37,6 +37,12 @@ export default () => {
                 <p>Skole side</p>
               </div>
             </a>
+            <a href="/javascript" target="blank" style={{
+              "margin-top": "2rem"}}>
+              <div class="skole">
+                <p>Javascript</p>
+              </div>
+            </a>
           </section>
         </main>
 

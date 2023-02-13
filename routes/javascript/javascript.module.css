@@ -1,0 +1,41 @@
+.index_article {
+    display: flex;
+    width: 100%;
+}
+
+
+.index_section {
+    display: flex;
+}
+
+.me_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.klokke {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    border: 1px solid #fff;
+    padding: 1rem;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 1rem;
+}
+
+.button {
+    padding: 1em;
+    background-color: #28536b;
+    color: #ffffff;
+    font-weight: bold;
+    border: 1px solid #000;
+    cursor: pointer;
+}

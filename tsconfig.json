@@ -3,7 +3,9 @@
         "jsx": "preserve",
         "jsxFactory": "_compiler.factory",
 
-        "types": ["@klevn/jxc/src/types/jsx", "@klevn/jxc/src/types/modules"]
+        "types": ["@klevn/jxc/src/types/jsx", "@klevn/jxc/src/types/modules"],
+
+        "lib": ["ES2022", "DOM"]
     },
 
     "include": ["routes"],
