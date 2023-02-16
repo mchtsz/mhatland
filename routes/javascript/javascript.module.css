@@ -32,10 +32,19 @@
 }
 
 .button {
+    margin-top: 1rem;
     padding: 1em;
-    background-color: #28536b;
-    color: #ffffff;
     font-weight: bold;
     border: 1px solid #000;
     cursor: pointer;
+}
+
+.navnBtn {
+    background-color: #28536b;
+    color: #ffffff;
+}
+
+.alderBtn {
+    background-color: #6b283c;
+    color: #ffffff;
 }
