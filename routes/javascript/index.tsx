@@ -124,6 +124,16 @@ export default () => {
 
             return alderLogInput.join("år, ") + "år"; // legger til "år" etter hvert tall.
           }
+
+
+         //make a simple while loop
+         let visited = false;
+          while (visited == false) {
+            alert("Velkommen til siden!");
+            visited = true;
+            break;
+          }
+
         }}
       </script>
     </html>

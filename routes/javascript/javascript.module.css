@@ -1,11 +1,15 @@
 .index_article {
     display: flex;
     width: 100%;
+    justify-content: center;
 }
 
 
 .index_section {
     display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    width: 800px;
 }
 
 .me_container {
@@ -18,7 +22,8 @@
     display: flex;
     color: #fff;
     justify-content: center;
-    border: 1px solid #fff;
+    border: 1px solid #6d6d6d;
+    border-radius: 2rem;
     padding: 1rem;
 }
 
@@ -27,24 +32,27 @@
     justify-content: center;
     align-items: center;
     color: #fff;
-    border: 1px solid #fff;
+    border: 1px solid #6d6d6d;
+    border-radius: 2rem;
     padding: 1rem;
 }
 
 .button {
     margin-top: 1rem;
-    padding: 1em;
+    padding: 1.5em;
     font-weight: bold;
-    border: 1px solid #000;
+    border: none;
     cursor: pointer;
 }
 
 .navnBtn {
     background-color: #28536b;
     color: #ffffff;
+    border-radius: 2rem;
 }
 
 .alderBtn {
     background-color: #6b283c;
     color: #ffffff;
+    border-radius: 2rem;
 }
